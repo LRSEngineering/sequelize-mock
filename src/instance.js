@@ -223,7 +223,6 @@ fakeModelInstance.prototype.getDataValue = function (key) {
  * @return {Any}
  */
 fakeModelInstance.prototype.get = function (key) {
-	console.log(key)
 	return key ? this._values[key] : this._values;
 }
 
