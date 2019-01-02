@@ -690,4 +690,8 @@ fakeModel.prototype.belongsToMany = fakeModel.prototype.hasMany = function (item
 	};
 };
 
+fakeModel.prototype.runHooks = function(hooks) {
+	return;
+}
+
 module.exports = fakeModel;
